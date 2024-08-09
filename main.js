@@ -11,7 +11,7 @@ let formularios = [
     {nombre:"De Registro", link:"componentes/DeRegistro/DeRegistro.html"},
     {nombre:"De Búsqueda", link:"componentes/DeBusqueda/DeBusqueda.html"},
     {nombre:"De Pedido Compras", link:"componentes/DePedidoCompras/DePedidoCompras.html"},
-    {nombre:"De Comentarios Reseñas", link:"componentes/DeComentariosReseña/DeComentariosReseña.html"},
+    {nombre:"De Comentarios Reseñas", link:"componentes/DeComentarios/DeComentarios.html"},
 ];
 
 
