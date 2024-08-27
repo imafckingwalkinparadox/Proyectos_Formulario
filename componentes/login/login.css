@@ -1,0 +1,140 @@
+.section-H {
+    width: 100%;
+    max-width: 120rem;
+    height: 60rem;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 4.5%;
+
+    display: grid;
+    grid-template-columns: 60rem auto;
+}
+
+.section-H .planilla {
+    height: 100%;
+    padding: 10rem 12rem;
+    gap: 1rem;
+
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8);
+}
+
+.section-H .log {
+    grid-column: 1/9;
+    font-size: 1.5rem;
+}
+
+.section-H h1 {
+    grid-column: 1/9;
+    color: gray;
+    font-family: cursive;
+}
+
+.section-H .boton-F {
+    width: 20.5rem;
+    height: 3rem;
+    grid-column: 1/4;
+    background-color: rgb(74, 74, 203);
+    color: white;
+    border-radius: 5px;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.section-H .boton-X {
+    width: 20rem;
+    grid-column: 5/8;
+    height: 3rem;
+    background-color: rgb(41, 61, 55);
+    color: white;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-H span {
+    grid-column: 1/9;
+    color: gray;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#Entrada {
+   grid-column: 1/9;
+}
+
+#Entrada label {
+    display: flex;
+    flex-direction: column;
+}
+
+#Entrada input {
+    height: 4rem;
+    border: none;
+    outline: none;
+    font-size: 1.7rem;
+    color: black;
+    font-weight: 600;
+    border-bottom: 2px solid rebeccapurple;
+}
+
+#Entrada .seleccion span {
+    color: black;
+}
+
+#Entrada .seleccion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Entrada .seleccion label {
+    font-size: 1.2rem;
+    
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#Entrada .seleccion label input {
+    width: 1rem;
+}
+
+#Entrada .btn button {
+    width: 15.5rem;
+    height: 3.7rem;
+    border-radius: 5px;
+
+}
+
+#Entrada .btn .boton-L {
+    color: white;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+#Entrada .btn .boton-S {
+    
+    border-color: 1px solid black;    
+}
+
+.term {
+    color: blue;
+}
+
+.banner img {
+    height: 59.6rem;
+    width: 100%;
+
+    object-fit: cover;
+}
